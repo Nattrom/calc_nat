@@ -1,13 +1,13 @@
 let output = document.getElementById("output");
 
-function addToOutput(value) {
+const addToOutput=(value)=> {
   output.value += value;
 }
 
-function calculate() {
+const calculate=()=> {
   output.value = eval(output.value);
 }
 
-function clearOutput() {
+const clearOutput=()=> {
   output.value = "";
 }
